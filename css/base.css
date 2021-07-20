@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  background: #fff;
+  color: #303030; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none; }
+
+::-moz-selection {
+  color: #ffffff; }
+
+::selection {
+  color: #ffffff; }
+
+img {
+  max-width: 100%; }
+
+h1 {
+  color: #585858 !important;
+  display: inline-block;
+  font-size: 60px;
+  text-transform: uppercase; }
+
+p {
+  font-weight: normal; }
+
+/*# sourceMappingURL=base.css.map */

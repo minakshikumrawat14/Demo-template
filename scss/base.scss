@@ -1,0 +1,30 @@
+@import "mixin";
+@import "color";
+body{
+    @include commanFont;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+}
+::-moz-selection {
+	color:$colorWhite;
+}
+::selection{
+	color:$colorWhite;
+}
+img{
+	max-width:100%;
+}
+
+h1{
+	color:$colorBrown !important;
+	display:inline-block;
+	font-size:60px;
+	text-transform:uppercase;
+}
+p{
+	font-weight: normal;
+}
